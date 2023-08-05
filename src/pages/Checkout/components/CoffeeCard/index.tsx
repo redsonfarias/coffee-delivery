@@ -46,7 +46,7 @@ export function CoffeeCard({ coffee }: CoffeeCardProps) {
                   changeQuantity={changeQuantity}
                   size="small"
                 />
-                <RemoveButtonContainer onClick={removeCoffee}>
+                <RemoveButtonContainer onClick={removeCoffee} type="button">
                   <Trash weight="regular" />
                   remover
                 </RemoveButtonContainer>
