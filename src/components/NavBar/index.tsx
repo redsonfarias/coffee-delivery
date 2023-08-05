@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { CoffeeContext } from '@/contexts/CoffeeContext'
-import logo from '@/assets/logo.svg'
+import logo from '@/assets/Logo.svg'
 import { MapPin, ShoppingCart } from '@phosphor-icons/react'
 import { COFFEE_SHOP_LOCATION } from '@/constants'
 import {
