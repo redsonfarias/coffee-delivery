@@ -23,6 +23,14 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 130%;
   }
 
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   button {
     border: none;
     cursor: pointer;
