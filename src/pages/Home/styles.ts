@@ -16,4 +16,17 @@ export const ListContainer = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem 2rem;
   margin-top: 3rem;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 890px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 0;
+  }
+
+  @media (max-width: 610px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `

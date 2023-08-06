@@ -12,6 +12,11 @@ interface InputProps {
 export const Container = styled.div<ContainerProps>`
   width: 100%;
   max-width: ${(props) => (props.$maxWidth ? `${props.$maxWidth}rem` : 'none')};
+  min-width: 0;
+
+  @media (max-width: 520px) {
+    max-width: none;
+  }
 `
 
 export const InputContainer = styled.div<InputProps>`

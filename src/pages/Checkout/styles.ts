@@ -7,10 +7,15 @@ interface LabelButtonProps {
 export const CheckoutContainer = styled.form`
   display: flex;
   gap: 2rem;
-  margin-top: 3rem;
+  margin: 3rem auto 0 auto;
 
   > :first-child {
     flex: 1;
+  }
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    max-width: 45rem;
   }
 `
 
@@ -49,6 +54,10 @@ export const SummaryContainer = styled.div`
   background: ${(props) => props.theme.colors.baseCard};
   border-radius: 6px 44px;
   padding: 2.5rem;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 `
 
 export const PurchaseValuesContainer = styled.div`

@@ -13,6 +13,10 @@ export const ConfirmedOrderContainer = styled.form`
   > :nth-child(2) {
     font-size: 1.25rem;
   }
+
+  @media (max-width: 950px) {
+    margin-top: 1.5rem;
+  }
 `
 
 export const MainContainer = styled.div`
@@ -21,10 +25,34 @@ export const MainContainer = styled.div`
   align-items: center;
   gap: 6rem;
   margin-top: 2rem;
+
+  @media (max-width: 1140px) {
+    gap: 3rem;
+
+    img {
+      width: 45%;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    gap: 2rem;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+
+    img {
+      display: none;
+    }
+  }
 `
 
 export const OrderInfoContainer = styled.div`
-  flex: 1;
+  width: 100%;
   padding: 0.063rem;
   background: linear-gradient(to right, #dbac2c, #8047f8);
   border-radius: 6px 36px;
@@ -36,6 +64,10 @@ export const OrderInfoContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    @media (max-width: 480px) {
+      padding: 1.5rem;
+    }
   }
 `
 

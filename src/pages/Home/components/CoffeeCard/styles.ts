@@ -5,10 +5,12 @@ export const CoffeeCardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 0.875rem;
+  max-width: 16rem;
   padding: 1.25rem;
   background: ${(props) => props.theme.colors.baseCard};
   border-radius: 6px 36px;
   text-align: center;
+  margin: 0 auto;
 
   img {
     height: 7.5rem;
