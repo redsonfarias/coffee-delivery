@@ -30,7 +30,7 @@ export const Title = styled.p`
   }
 
   @media (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 `
 

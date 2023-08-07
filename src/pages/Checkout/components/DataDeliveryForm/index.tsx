@@ -82,6 +82,7 @@ export function DataDeliveryForm() {
           </RowContainer>
         </InputsContainer>
       </FormTemplate>
+
       <FormTemplate variant="payment">
         <>
           <ButtonsContainer>

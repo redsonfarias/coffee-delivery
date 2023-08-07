@@ -75,6 +75,7 @@ export function Checkout() {
       <CheckoutMessageContainer>
         <SmileyXEyes size={150} />
         <p>Você não possui nenhum café no carrinho</p>
+
         <LabelButtonContainer onClick={() => navigate('/')}>
           <ArrowLeft weight="bold" size={20} /> voltar para home
         </LabelButtonContainer>
@@ -91,10 +92,12 @@ export function Checkout() {
         </div>
         <div>
           <Subtitle>Cafés selecionados</Subtitle>
+
           <SummaryContainer>
             {selectedCoffees.map((coffee) => (
               <CoffeeCard coffee={coffee} key={coffee.id} />
             ))}
+
             <PurchaseValuesContainer>
               <PriceContainer>
                 <p>Total de itens</p>
@@ -109,6 +112,7 @@ export function Checkout() {
                 <p>R$ {formattedTotal}</p>
               </PriceBoldContainer>
             </PurchaseValuesContainer>
+
             <LabelButtonContainer $fullWidth>
               confirmar pedido
             </LabelButtonContainer>
