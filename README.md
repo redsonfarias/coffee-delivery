@@ -1,26 +1,25 @@
 # coffee-delivery
+Coffee Delivery é o segundo desafio da trilha de ReactJS do bootcamp Ignite da Rocketseat, onde o propósito é desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia.
 
-<h4>
-  Deploy
-</h4>
+### Objetivos
+Aprimorar habilidades em conceitos como gerenciamento de estados usando Context API e lidar com lógicas complexas de estado através do uso do useReducer. Dominar a criação de interfaces estilizadas e responsivas com Styled Components, além de implementar formulários avançados usando React Hook Forms e Zod.
 
+### Deploy
 [https://coffee-delivery-alpha-pied.vercel.app](https://coffee-delivery-alpha-pied.vercel.app)
 
-<h4>
-  Instalação/Execução
-</h4>
+### Instalação/Execução
 
-Clone o projeto `git clone git@github.com:redsonfarias/coffee-delivery.git`
+Clone o projeto
+```sh
+git clone git@github.com:redsonfarias/coffee-delivery.git
+```
 
-Use `npm i` para instalar as dependências
+Instale as dependências
+```sh
+npm install
+```
 
-Use `npm run dev` para executar a aplicação
-
-<br />
-
-![coffee-delivery](https://github.com/redsonfarias/coffee-delivery/assets/130811163/5a23f499-5010-4928-aeb8-b322bb70f682)
-![coffee-delivery-2](https://github.com/redsonfarias/coffee-delivery/assets/130811163/af3aeb14-df69-4a82-b4e1-b00b8652dd92)
-
-![coffee-deliver-mob](https://github.com/redsonfarias/coffee-delivery/assets/130811163/3a4c2fbf-073f-4707-afca-dcda8ab275d2)
-![coffee-deliver-mob-2](https://github.com/redsonfarias/coffee-delivery/assets/130811163/e2f0a030-e6c9-4d8f-9389-59732b616c25)
-![coffee-delivery-tablet](https://github.com/redsonfarias/coffee-delivery/assets/130811163/f36f8a43-836c-4bab-b44d-0faa9a3abaa2)
+Execute a aplicação
+```sh
+npm run dev
+```
