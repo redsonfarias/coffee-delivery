@@ -1,4 +1,5 @@
-# Coffee Delivery
+![image](https://github.com/redsonfarias/coffee-delivery/assets/130811163/32350641-68f7-4ef3-afde-52ed082ffd43)
+
 Coffee Delivery é o segundo desafio da trilha de ReactJS do bootcamp Ignite da Rocketseat, onde o propósito é desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia.
 
 ### Objetivos
